@@ -3,8 +3,13 @@ definePageMeta({
   middleware: "auth",
   layout: "admin",
 });
+
+const { user } = useAuth();
 </script>
 
 <template>
-  <h1>Dashboard</h1>
+  <div>
+    <h2>Profile</h2>
+    <p>Email: {{ user?.email }}</p>
+  </div>
 </template>

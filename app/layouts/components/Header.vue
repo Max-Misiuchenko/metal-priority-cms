@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>index Page</h1>
+  <header>Header</header>
 </template>
